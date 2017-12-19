@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="ICT13580032A.NavPage3"
+    Title="Page 3"
+    BackgroundColor="Purple">
+    <StackLayout
+        Orientation="Vertical"
+        VerticalOptions="Center"
+        Padding="30">
+
+        <Button
+            x:Name="backToRootButton"
+            Text="Back to Root"
+            BackgroundColor="Navy"/>
+        <Button
+            x:Name="backButton"
+            Text="Back"
+            BackgroundColor="Navy"/>
+    </StackLayout>
+
+</ContentPage>
